@@ -1,0 +1,1 @@
+L_I intent; L_B blueprint; L_P planner; L_C compiler; L_V verification; L_E execution; L_U UI/UX; L_T traceability; L_X transfer; L_S sequence; L_H hybrid.

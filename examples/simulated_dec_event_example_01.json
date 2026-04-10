@@ -1,0 +1,6 @@
+{
+  "event_id": "dec_001",
+  "step": "monitor_conversion",
+  "trigger": "conversion_below_threshold",
+  "action": "extend_heating_window"
+}

@@ -1,0 +1,1 @@
+Reference slot for CIT v1.3 summary.

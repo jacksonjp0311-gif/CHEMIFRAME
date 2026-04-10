@@ -1,0 +1,13 @@
+{
+  "artifact_id": "seq_001",
+  "family": "sequence_assembly",
+  "target_domain": "oligonucleotide_synthesis",
+  "sequence": ["A", "T", "G", "C"],
+  "compiled_steps": [
+    "couple_0_A", "wash_0_A", "checkpoint_0_A",
+    "couple_1_T", "wash_1_T", "checkpoint_1_T",
+    "couple_2_G", "wash_2_G", "checkpoint_2_G",
+    "couple_3_C", "wash_3_C", "checkpoint_3_C",
+    "final_release"
+  ]
+}

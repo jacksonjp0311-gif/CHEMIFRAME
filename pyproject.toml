@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chemiframe"
+version = "0.1.0"
+description = "CHEMIFRAME CF v1.6 iteration scaffold"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "James Paul Jackson" }
+]
+dependencies = []
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

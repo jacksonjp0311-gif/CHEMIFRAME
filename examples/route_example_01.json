@@ -1,0 +1,9 @@
+{
+  "route_id": "route_001",
+  "family": "aryl_coupling",
+  "steps": [
+    {"op": "AM", "label": "charge_reactor"},
+    {"op": "AE", "label": "heat_and_stir"},
+    {"op": "SM", "label": "purify_output"}
+  ]
+}

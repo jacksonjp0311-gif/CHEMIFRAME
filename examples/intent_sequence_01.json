@@ -1,0 +1,10 @@
+{
+  "target_family": "sequence_program",
+  "target_domain": "oligonucleotide_synthesis",
+  "sequence": ["A", "T", "G", "C"],
+  "constraints": {
+    "max_steps": 20,
+    "min_detectability_score": 0.95
+  },
+  "objectives": ["ordered_fidelity", "detectability"]
+}

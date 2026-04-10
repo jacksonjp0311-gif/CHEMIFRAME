@@ -1,0 +1,6 @@
+{
+  "run_id": "sim_run_001",
+  "status": "completed",
+  "simulated": true,
+  "dec_events": ["dec_001"]
+}

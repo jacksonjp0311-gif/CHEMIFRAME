@@ -1,0 +1,8 @@
+{
+  "artifact_id": "hybrid_001",
+  "family": "hybrid_chemo_bio",
+  "chemical_segment": ["charge_precursors", "execute_primary_transformation", "verify_interface_state"],
+  "interface_state": {"state_id": "iface_001", "detectable": true, "validated": true},
+  "bio_segment": ["bounded_delivery", "bio_readout_checkpoint"],
+  "coupling_points": ["interface_state_verified", "bio_segment_enabled"]
+}

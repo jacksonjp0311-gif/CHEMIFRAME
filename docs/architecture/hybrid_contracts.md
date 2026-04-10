@@ -1,0 +1,1 @@
+Hybrid transfer requires explicit interface state and bounded coupling metadata.

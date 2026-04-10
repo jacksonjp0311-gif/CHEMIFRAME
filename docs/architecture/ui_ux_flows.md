@@ -1,0 +1,1 @@
+Intent -> Blueprint -> Route -> Verification -> Artifact -> Simulate/Execute -> Trace -> Audit.

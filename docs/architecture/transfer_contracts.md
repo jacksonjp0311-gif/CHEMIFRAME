@@ -1,0 +1,1 @@
+Cross-domain transfer is bounded and contract-governed.

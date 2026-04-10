@@ -1,0 +1,11 @@
+{
+  "source_family": "hybrid_chemo_bio",
+  "target_domain": "hybrid_chemo_bio",
+  "finite_route_ok": false,
+  "detectability_ok": false,
+  "dec_representation_ok": false,
+  "artifact_visibility_ok": true,
+  "trace_continuity_ok": false,
+  "bounded_coupling_ok": false,
+  "transfer_admissible": false
+}

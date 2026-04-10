@@ -1,0 +1,1 @@
+Verification surfaces: detectability, DEC points, artifact visibility, trace continuity, transfer admissibility.

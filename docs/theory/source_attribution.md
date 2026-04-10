@@ -1,0 +1,1 @@
+Source framework: Cronin / Pagel / Sharma chemputation paper; Codex extraction layer: CIT v1.3; software layer: CHEMIFRAME CF v1.6.

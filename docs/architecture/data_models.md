@@ -1,0 +1,1 @@
+Core models: IntentSpec, RouteObject, ExecutionContract, TransferContract, SequenceContract, HybridContract, TraceRecord.

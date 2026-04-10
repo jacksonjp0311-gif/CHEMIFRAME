@@ -1,0 +1,7 @@
+{
+  "intent_id": "intent_001",
+  "route_id": "route_001",
+  "contract_id": "contract_001",
+  "artifact_id": "xdl_001",
+  "status": "compiled"
+}

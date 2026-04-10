@@ -1,0 +1,16 @@
+{
+  "target_family": "hybrid_interface_program",
+  "target_domain": "hybrid_chemo_bio",
+  "chemical_segment": ["charge_precursors", "execute_primary_transformation", "verify_interface_state"],
+  "interface_state": {
+    "state_id": "iface_001",
+    "detectable": true,
+    "validated": true
+  },
+  "bio_segment": ["bounded_delivery", "bio_readout_checkpoint"],
+  "constraints": {
+    "max_steps": 10,
+    "min_detectability_score": 0.90
+  },
+  "objectives": ["bounded_coupling", "trace_continuity"]
+}

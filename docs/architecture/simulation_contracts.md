@@ -1,0 +1,1 @@
+Simulation continuity: simulator must preserve artifact + contract + trace interfaces.

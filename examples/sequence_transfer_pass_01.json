@@ -1,0 +1,11 @@
+{
+  "source_family": "sequence_assembly",
+  "target_domain": "oligonucleotide_synthesis",
+  "finite_route_ok": true,
+  "detectability_ok": true,
+  "dec_representation_ok": true,
+  "artifact_visibility_ok": true,
+  "trace_continuity_ok": true,
+  "ordered_steps_ok": true,
+  "transfer_admissible": true
+}

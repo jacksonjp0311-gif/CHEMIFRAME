@@ -1,0 +1,5 @@
+<procedure id="xdl_001" blueprint="aryl_coupling">
+  <step op="add" label="charge_reactor"/>
+  <step op="energize" label="heat_and_stir"/>
+  <step op="remove" label="purify_output"/>
+</procedure>

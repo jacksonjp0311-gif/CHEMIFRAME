@@ -1,0 +1,8 @@
+target_family: aryl_coupled_scaffold
+target_domain: small_molecule
+inputs: [aryl_halide, boronic_acid]
+constraints:
+  max_steps: 6
+  green_solvents_only: true
+  min_detectability_score: 0.90
+objectives: [yield, purity, atom_economy]
