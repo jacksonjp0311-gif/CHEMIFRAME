@@ -1,0 +1,13 @@
+{
+  "detectability_ok": true,
+  "score": 0.95,
+  "assembly_bound_ok": true,
+  "assembly_index": 6,
+  "dec_points_defined": true,
+  "dec_points": [
+    "monitor_conversion"
+  ],
+  "route_admissible": true,
+  "trace_schema_ok": true,
+  "ok": true
+}

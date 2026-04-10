@@ -1,0 +1,7 @@
+{
+  "id": "run_7cfa2d20",
+  "status": "completed",
+  "compiled_artifact": "<procedure id=\"route_aryl_001\" blueprint=\"aryl_coupling\">\n  <step op=\"add\" label=\"charge_reactor\"/>\n  <step op=\"add\" label=\"add_catalyst\"/>\n  <step op=\"energize\" label=\"heat_and_stir\"/>\n  <step op=\"energize\" label=\"monitor_conversion\"/>\n  <step op=\"remove\" label=\"workup\"/>\n  <step op=\"remove\" label=\"purify\"/>\n</procedure>",
+  "dec_events": [],
+  "simulated": false
+}

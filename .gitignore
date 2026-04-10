@@ -35,10 +35,7 @@ Thumbs.db
 *.key
 *.pem
 
-# Runtime / generated outputs
-outputs/
-artifacts/
-runs/
+# Generated caches
 cache/
 tmp/
 temp/

@@ -1,0 +1,71 @@
+{
+  "intent": {
+    "target_family": "aryl_coupled_scaffold",
+    "target_domain": "small_molecule",
+    "inputs": [
+      "aryl_halide",
+      "boronic_acid"
+    ],
+    "constraints": {
+      "max_steps": 6,
+      "green_solvents_only": true,
+      "min_detectability_score": 0.9
+    },
+    "objectives": [
+      "yield",
+      "purity",
+      "atom_economy"
+    ]
+  },
+  "route": {
+    "route_id": "route_aryl_001",
+    "family": "aryl_coupling",
+    "target_domain": "small_molecule",
+    "steps": [
+      {
+        "op": "AM",
+        "label": "charge_reactor"
+      },
+      {
+        "op": "AM",
+        "label": "add_catalyst"
+      },
+      {
+        "op": "AE",
+        "label": "heat_and_stir"
+      },
+      {
+        "op": "AE",
+        "label": "monitor_conversion"
+      },
+      {
+        "op": "SM",
+        "label": "workup"
+      },
+      {
+        "op": "SM",
+        "label": "purify"
+      }
+    ],
+    "blueprint": "aryl_coupling"
+  },
+  "contracts": {
+    "detectability_ok": true,
+    "score": 0.95,
+    "assembly_bound_ok": true,
+    "assembly_index": 6,
+    "dec_points_defined": true,
+    "dec_points": [
+      "monitor_conversion"
+    ],
+    "route_admissible": true,
+    "trace_schema_ok": true,
+    "ok": true
+  },
+  "artifact_path": "artifacts\\compiled_xdl\\route_aryl_001.xdl",
+  "contract_path": "artifacts\\contracts\\route_aryl_001.contract.json",
+  "trace_path": "artifacts\\traces\\run_c16b210a.json",
+  "run_id": "run_c16b210a",
+  "simulated": false,
+  "status": "completed"
+}

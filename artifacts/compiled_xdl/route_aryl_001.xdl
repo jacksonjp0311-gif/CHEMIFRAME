@@ -1,0 +1,8 @@
+<procedure id="route_aryl_001" blueprint="aryl_coupling">
+  <step op="add" label="charge_reactor"/>
+  <step op="add" label="add_catalyst"/>
+  <step op="energize" label="heat_and_stir"/>
+  <step op="energize" label="monitor_conversion"/>
+  <step op="remove" label="workup"/>
+  <step op="remove" label="purify"/>
+</procedure>
